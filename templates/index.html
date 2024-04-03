@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REACT BOOSTING</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            max-width: 500px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        h1 {
+            color: #39ff14;
+            margin-top: 20px;
+        }
+        .neon-border {
+            border: 2px solid #39ff14; 
+            padding: 20px;
+            margin-bottom: 20px;
+            position: relative;
+            background-color: black;
+        }
+        .input-field, .video-box {
+            border: 2px solid #39ff14; 
+            background-color: black;
+            color: white;
+            padding: 10px;
+            margin-bottom: 20px;
+            width: calc(100% - 24px); 
+            box-sizing: border-box;
+        }
+        .input-field::placeholder {
+            color: #39ff14; 
+        }
+        .input-field:focus {
+            outline: none;            
+            border-color: white; 
+        }
+        input[type="submit"] {
+            background-color: #39ff14; 
+            color: black;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            width: 100%;
+            transition: background-color 0.3s;
+        }
+        input[type="submit"]:hover {
+            background-color: #28a745;
+        }
+        .neon-green {
+            color: #39ff14; 
+        }
+        .circle {
+            width: 100px;
+            height: 100px;
+            background-color: #39ff14; 
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px auto;
+        }
+        .circle img {
+            max-width: 80%;
+            max-height: 80%;
+            border-radius: 50%;
+        }
+        .name {
+            text-align: center;
+            text-transform: uppercase;
+            margin-bottom: 10px; /* Adjust as needed */
+        }
+        .video-container {
+            width: 500px;
+            max-width: 100%;
+            margin: 0 auto;
+            text-align: center;
+            position: relative;
+        }
+        .video-box {
+            border: 2px solid #39ff14;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            width: calc(100% - 44px); /* Adjusted to match the video width and padding */
+            box-sizing: border-box;
+            position: absolute;
+            top: calc(100% + 1px); /* Adjust as needed */
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        .video-container video {
+            width: 100%;
+            border-radius: 5px; 
+        }
+    </style>
+</head>
+<body oncontextmenu="return false">
+
+    <div class="container">
+        <h1>REACT BOOSTING</h1>
+
+        <div class="circle">
+            <img src="https://j.top4top.io/p_3015hj51u8.jpeg" alt="Profile Picture">
+        </div>
+
+        <form id="reactForm" action="/react" method="POST">
+            <div class="neon-border">
+                <div>
+                    <select name="selected_reaction" class="input-field neon-green">
+                        <option value="LIKE">Like</option>
+                        <option value="LOVE">Love</option>
+                        <option value="WOW">Wow</option>
+                        <option value="HAHA">Haha</option>
+                        <option value="SAD">Sad</option>
+                        <option value="ANGRY">Angry</option>
+                    </select>
+                </div>
+
+                <div>
+                    <input type="text" name="post_link" class="input-field neon-green" placeholder="Post Link">
+                </div>
+
+                <div>
+                    <input type="text" name="cookies" class="input-field neon-green" placeholder="Cookies">
+                </div>
+
+                <input type="submit" value="React">
+            </div>
+        </form>
+
+        <div class="name neon-green">CREATED BY SHIKI MACHINA</div>
+
+        <div class="video-container">
+            <div class="video-box neon-border">
+                <video autoplay loop controls>
+                    <source src="https://e.top4top.io/m_30158njmd8.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+    </div>
+
+    <script>
+      
+        document.addEventListener('contextmenu', function(e) {
+            e.preventDefault();
+            alert('Oops! Sorry, you can\'t get my code.');
+        });
+
+        
+        document.onkeydown = function(e) {
+            if (e.ctrlKey && (e.keyCode === 67 || e.keyCode === 85 || e.keyCode === 117)) {
+                alert('Oops! Sorry, you can\'t get my code.');
+                return false;
+            }
+        };
+
+        
+        document.addEventListener('keydown', function(event) {
+            if (event.keyCode === 123) { 
+                alert('Oops! Sorry, you can\'t inspect elements.');
+                event.preventDefault();
+            }
+        });
+    </script>
+</body>
+</html>
