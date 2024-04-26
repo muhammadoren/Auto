@@ -22,7 +22,8 @@ def react():
         
         data = {
             "post_id": post_link,
-            "react_type": reaction
+            "react_type": reaction,
+            "version": "v1.7"
         }
 
         
@@ -49,4 +50,3 @@ def react():
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=8080)
-    
